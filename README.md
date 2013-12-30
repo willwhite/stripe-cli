@@ -4,15 +4,15 @@ A JavaScript/JSON compatible port of [Stripe::CLI](https://github.com/stripe-con
 
 **This is a work in progress. Currently only listing is supported.**
 
-Install
-=======
+Installation
+------------
 
 ```
 npm install -g stripe-cli
 ```
 
 Configuration
-=============
+-------------
 
 Add your Stripe secret key to a JSON file located at `~/.striperc`:
 
@@ -23,6 +23,6 @@ Add your Stripe secret key to a JSON file located at `~/.striperc`:
 ```
 
 Usage
-=====
+-----
 
 Run `stripe` or see USAGE.txt for usage information.
