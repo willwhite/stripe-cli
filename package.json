@@ -1,0 +1,23 @@
+{
+  "name": "stripe-cli",
+  "version": "0.0.0",
+  "description": "A command line interface to Stripe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/willwhite/stripe-cli.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "stripe": "~2.3.2",
+    "optimist": "~0.6.0",
+    "superenv": "0.0.1"
+  },
+  "bin": {
+      "stripe": "./index.js"
+  }
+}

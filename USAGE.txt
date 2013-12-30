@@ -1,0 +1,12 @@
+Usage: $0 <resource> <command>
+
+Commands:
+  stripe charges list
+  stripe coupons list
+  stripe customers list
+  stripe events list
+  stripe invoices list
+  stripe plans list
+  stripe recipients list
+  stripe transactions list
+  stripe transfers list
