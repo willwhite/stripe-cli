@@ -29,7 +29,7 @@ var objects = [];
         offset: 100 * offset
     }, function(err, i) {
         if (err) throw err;
-        if (i.data.length == 0) return console.log(objects);
+        if (i.data.length == 0) return console.log(JSON.stringify(objects, null, 4));
         objects = objects.concat(i.data);
         list(++offset);
     });
