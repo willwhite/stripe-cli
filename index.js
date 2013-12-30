@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 var optimist = require('optimist')
-var argv = optimist.usage(fs.readFileSync('./USAGE.txt', 'utf8'))
+var argv = optimist.usage(fs.readFileSync(__dirname + '/USAGE.txt', 'utf8'))
     .argv;
 var env = require('superenv')('stripe');
 var stripe = require('stripe')(env.key);
